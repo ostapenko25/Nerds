@@ -4,7 +4,8 @@
 1. Главная (содержит модальное окно "Обратная связь").
 2. Магазин.
 Использован HTML, CSS, JavaScript для создания модальных окон.
-Демо: https://ostapenko25.github.io/Nerds/
+
+Демо: http://frontendlviv.pe.hu/portfolio/4/
 
 Дизайн: HTMLAcademy.ru
 Верстка: Юлия Остапенко
