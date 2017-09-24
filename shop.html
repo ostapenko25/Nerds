@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title>NEIRDS shop</Title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="robots" content="index, follow"> 
+        <meta name="description" content="сниппет: сайт-визитка полиграфия">
+        <meta title="Neirds">
+        <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+        <link href="style.css" rel="stylesheet" type="text/css">  
+        <link href="https://fonts.googleapis.com/css?family=Roboto&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet"> 
+
+<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->   
+    </head>
+    
+<body>
+
+         <!-- HEADER-->
+    <header class="main-header clearfix">   
+         <div class="container">  <!--container - центровщик содержимого -->
+                <div class="index-logo">
+                    <img src="img/logo-1.png" width="139" height="56" alt="Neirds">
+                </div>
+             <nav class="main-navigation">
+                 <ul class="main-menu">
+                    <li>
+                        <a href="index.html">Студия</a>
+                    </li>
+                    <li>
+                        <a href="index.html#clients">Клиенты</a>
+                    </li>
+                    <li>
+                        <a href="shop.html" class="current">Магазин</a>
+                    </li>
+                    <li>
+                        <a href="index.html#contacts">Контакты</a>
+                    </li>
+                  </ul>
+             </nav>
+             <div class="user-block">
+                    <a href="#">Корзина</a>
+             </div>    
+         </div>
+    </header>
+    
+        <div class="promo-main">
+            <div class="welcome">
+            Добро пожаловать в магазин<br> готовых макетов!</div>
+        </div>
+ <!-- Основное содержание страницы-->
+    <div class="container">     
+           
+                               
+        <!-- Основной каталог из 4 секций (3 слева, 1 справа)-->        
+    <div class="catalog clearfix">
+        <!-- Блок фильтров слева-->
+        <div class="catalog-filter">
+                
+            <div class="catalog-price">
+                <h2>Стоимость:</h2>
+                <form class="price-form" action="price.js" method="post">
+                    <input id="rangetree" type="range" min="0" max="100" step="1" value="75"><br>
+                    <div class="diapazon">
+                        <span> ОТ </span><input type="text" name="sum" maxlength="5" size="5" value="1"> <span> ДО </span><input type="text" name="sum" maxlength="5" size="5" value="15000">
+                    </div>
+                </form>
+            </div>
+            <div class="catalog-greed">                
+                      <h2>Сетка:</h2>
+                        <form class="form-greed" action="" name="group" method="post">
+                            <ul>
+                                <li><input type="radio" name="group" value="adapt" id="adapt"><label for="adapt"><span></span>Адаптивная</label></li>
+                                <li><input type="radio" checked name="group" value="fix" id="fix"><label for="fix"><span></span>Фиксированная</label></li>
+                                <li><input type="radio" name="group" value="flex" id="flex"><label for="flex"><span></span>Резиновая</label></li>       
+                            </ul>
+                         </form>
+              </div>
+                
+              <div class="catalog-features">
+                  <h2>Особенности:</h2>
+                <form class="form-features" action="" name="brand" method="post">
+                    <ul>
+                        <li><input type="checkbox" checked value="slider" id="slider"><label for="slider"><span></span>Слайдер</label></li>
+                        <li><input type="checkbox" value="features" id="features"><label for="features"><span></span>Блок преимуществ</label></li>
+                        <li><input type="checkbox" checked value="news" id="news"><label for="news"><span></span>Новости</label></li>
+                        <li><input type="checkbox" checked value="gallery"  id="gallery"><label for="gallery"><span></span>Галерея</label></li>
+                        <li><input type="checkbox" checked value="cart"  id="cart"><label for="cart"><span></span>Корзина</label></li>                    
+                    </ul>
+                   </form>
+                </div>
+                
+                 <a class="btn" href="#">Показать</a>
+                
+            </div>        
+        
+            
+            <!-- Карточки каталога справа-->
+            <div class="catalog-items">                
+                <div class="sort">                    
+                        <ul>
+                            <li><span>Сортировать:</span></li>
+                            <li><a href="#">По цене</a></li>
+                            <li><a href="#">По типу</a></li>
+                            <li><a href="#">По функционалу</a></li> 
+                            <li><a href="#" class="down"><img src="img/down.png" width="10" height="10"></a></li>
+                            <li><a href="#" class="up"><img src="img/up.png" width="10" height="10"></a></li>                            
+                        </ul>
+                </div>
+                
+                <!-- Карточка одного товара -->
+                <div class="item">                        
+                    <a href="item.html">   
+                        <div class="item-banner">
+                        <img src="img/item-banner.png" class="item-banner" width="240" height="30" alt="">
+                        </div>
+                        <div class="item-img">
+                        <img src="img/item-1.jpg" width="240" height="240" alt=""> 
+                        </div>
+                    </a>                 
+    
+                    <figcaption>
+                        <h2> Авиатор</h2>
+                        <p class="item-describe">Одностраничный макет с авторским дизайном</p><br>
+                      <a href="item-1.html">
+                        <p class="btn item-price">8000 Р.</p>
+                      </a>
+                    </figcaption>      
+               </div>                    
+                <!-- Конец карточки одного товара -->
+                
+                
+                <!-- Карточка одного товара -->
+                <div class="item item-2">                        
+                    <a href="item.html">   
+                        <div class="item-banner">
+                        <img src="img/item-banner.png" class="item-banner" width="240" height="30" alt="">
+                        </div>
+                        <div class="item-img">
+                        <img src="img/item-2.jpg" width="240" height="240" alt=""> 
+                        </div>
+                    </a>                 
+    
+                    <figcaption>
+                        <h2> Sunset</h2>
+                        <p class="item-describe">Интернет-магазин с личным кабинетом</p><br>
+                      <a href="item-2.html">
+                        <p class="btn item-price">10000 Р.</p>
+                      </a>
+                    </figcaption>      
+               </div>                    
+                <!-- Конец карточки одного товара -->
+              
+                 <div class="clr"></div>
+                
+                <!-- Карточка одного товара -->
+                <div class="item">                        
+                    <a href="item.html">   
+                        <div class="item-banner">
+                        <img src="img/item-banner.png" class="item-banner" width="240" height="30" alt="">
+                        </div>
+                        <div class="item-img">
+                        <img src="img/item-3.jpg" width="240" height="240" alt=""> 
+                        </div>
+                    </a>                 
+    
+                    <figcaption>
+                        <h2> Forte</h2>
+                        <p class="item-describe">Отличный макет для личного блога</p><br>
+                      <a href="item-3.html">
+                        <p class="btn item-price">5000 Р.</p>
+                      </a>
+                    </figcaption>      
+               </div>                    
+                <!-- Конец карточки одного товара -->
+ 
+                        
+                <!-- Карточка одного товара -->
+                <div class="item item-4">                             <a href="item.html">   
+                        <div class="item-banner">
+                        <img src="img/item-banner.png" class="item-banner" width="240" height="30" alt="">
+                        </div>
+                        <div class="item-img">
+                        <img src="img/item-4.jpg" width="240" height="240" alt=""> 
+                        </div>
+                    </a>                 
+    
+                    <figcaption>
+                        <h2> Modern Organic THAI</h2>
+                        <p class="item-describe">Сайт для ресторана быстрого питания</p><br>
+                      <a href="item-4.html">
+                        <p class="btn item-price">12000 Р.</p>
+                      </a>
+                    </figcaption>      
+               </div>                    
+                <!-- Конец карточки одного товара -->
+                
+               <div class="clr"></div>
+                
+                <!-- Карточка одного товара -->
+                <div class="item">                        
+                    <a href="item.html">   
+                        <div class="item-banner">
+                        <img src="img/item-banner.png" class="item-banner" width="240" height="30" alt="">
+                        </div>
+                        <div class="item-img">
+                        <img src="img/item-5.jpg" width="240" height="240" alt=""> 
+                        </div>
+                    </a>                 
+    
+                    <figcaption>
+                        <h2>Avenue</h2>
+                        <p class="item-describe">Макет для блога о путешествиях</p><br>
+                        <a href="item-5.html">
+                        <p class="btn item-price">8000 Р.</p>
+                      </a>
+                    </figcaption>      
+               </div>                    
+                <!-- Конец карточки одного товара -->
+              
+                
+                <!-- Карточка одного товара -->
+                <div class="item item-6">                         <a href="item.html">   
+                        <div class="item-banner">
+                        <img src="img/item-banner.png" class="item-banner" width="240" height="30" alt="">
+                        </div>
+                        <div class="item-img">
+                        <img src="img/item-6.jpg" width="240" height="240" alt=""> 
+                        </div>
+                    </a>                 
+    
+                    <figcaption>
+                        <h2>Dovetail</h2>
+                        <p class="item-describe">Интенрет-магазин с галереей товаров</p><br>
+                      <a href="item-6.html">
+                        <p class="btn item-price">14000 Р.</p>
+                      </a>
+                    </figcaption>      
+               </div>                    
+                <!-- Конец карточки одного товара -->
+                
+            </div>    
+            
+            
+               <div class="clr"></div>
+        
+                    <!--Кнопки переключения карточек каталога-->
+            <div class="button-catalog">            
+                <a class="btn curr" href="#">1</a>
+                <a class="btn" href="#">2</a>
+                <a class="btn" href="#">3</a>
+                <a class="btn" href="#">Следующая</a>
+            </div>  
+            
+        </div>       
+</div>    
+    
+     <!--MAP-->
+    
+                 <div class="big-map">
+                     <div class="map-img">
+                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2818.2628487638904!2d38.92725781554394!3d45.060178779098294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40f04f4e7f3a208f%3A0x3f2c1f713f381daa!2z0YPQuy4g0JHQsNGD0LzQsNC90LAsIDI1LCDQmtGA0LDRgdC90L7QtNCw0YAsINCa0YDQsNGB0L3QvtC00LDRgNGB0LrQuNC5INC60YDQsNC5LCAzNTAwNDc!5e0!3m2!1sru!2sru!4v1504681456308" width="1200" height="412" frameborder="0" style="border:0" allowfullscreen></iframe>
+                     </div>
+                     <div class="map-logo">
+                         <img src="/img/logo-2.png" alt="">
+                     </div>
+                     <div class="adress">
+                         <p>NЁRDS DESIGN STUDIO</p><br>
+                         <p>11111, Краснодар,</p>
+                         <p>улица Баумана, д.25</p><br>
+                         <p>тел. +7 (812) 275-75-75</p>
+                         
+                         <a class="btn login" href="#">Напишите нам</a>
+                    </div>                   
+                 </div>
+    
+                     <!--FOOTER-->
+    <div class="container">
+ <footer class="clearfix">
+            
+                 <div class="social">
+                     <div class="social-icons"> 
+                            <a href="#" class="social-btn social-btn-vk">Вконтакте</a>
+                            <a href="#" class="social-btn social-btn-fb">Фейсбук</a>
+                            <a href="#" class="social-btn social-btn-inst">Инстаграм</a>
+                     </div>
+                     <div class="social-text">
+                         <h1> Давайте дружить, это выгодно!</h1>
+                         <p>Скидка 10% для друзей из социальных сетей</p>
+                     </div>
+                 </div>
+                
+            </footer>
+     </div>
+    
+                <div class="modal-content">
+            <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>            
+             <form class="email-form" action="https://echo.htmlacademy.ru" method="post">
+                <p>Ваше имя:</p>  
+                <input type="text" name="name" placeholder="Представьтесь, пожалуйста" maxlength="40" required>
+                     <div class="email">
+                        <p>Ваш e-mail:</p>  
+                        <input type="text" name="e-mail" placeholder="Для отправки ответа" maxlength="40" required> 
+                      </div>
+                 <p>Текст письма:</p>  
+                 <textarea class="textarea" name="message" rows="15" cols="40"> В свободной форме</textarea><br>  
+                <button class="btn" type="submit">Отправить</button>
+             </form>                
+      </div>    
+
+  <div class="modal-overlay"></div>
+ <script src="script.js"> </script>
+    
+</body>
+</html>
