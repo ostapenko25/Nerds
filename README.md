@@ -5,7 +5,7 @@
 2. Магазин.
 Использован HTML, CSS, JavaScript для создания модальных окон.
 
-Демо: http://frontendlviv.pe.hu/portfolio/4/
+Демо: https://ostapenko25.github.io/Nerds/
 
 Дизайн: HTMLAcademy.ru
 Верстка: Юлия Остапенко
