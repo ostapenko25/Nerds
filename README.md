@@ -5,6 +5,8 @@
 2. Магазин.
 Использован HTML, CSS, JavaScript для создания модальных окон.
 
+UPD1. На главную в раздел Promo добавлен слайдер на чистом CSS (без использования JS).
+
 Демо: https://ostapenko25.github.io/Nerds/
 
 Дизайн: HTMLAcademy.ru
