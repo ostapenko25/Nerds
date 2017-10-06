@@ -173,9 +173,9 @@ display: inline-block;
 }
 
 .promo-slider-slides  img {
-    float: left;
-    margin-left:50px;
-    padding:20px -10px;
+    display:inline-block;
+    float: left;    
+    padding:20px 0px;
     margin-top:20px;
     margin-left: 60px;
     margin-right: 50px;
